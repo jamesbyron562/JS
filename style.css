@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+.button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.button.blue {
+    background-color: #007BFF; /* Blue background */
+    color: white;
+}
+.button.pink {
+    background-color: #FF69B4; /* Pink background */
+    color: white;
+}
+.button.brown {
+    background-color: #8B4513; /* Brown background */
+    color: white;
+}
